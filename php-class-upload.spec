@@ -4,7 +4,7 @@
 Summary:	PHP Class to manager file uploads
 Name:		php-class-upload
 Version:	0.29
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Development/Languages/PHP
 Source0:	http://www.verot.net/download/class.upload.php/class.upload.tar.gz
@@ -12,9 +12,9 @@ Source0:	http://www.verot.net/download/class.upload.php/class.upload.tar.gz
 URL:		http://www.verot.net/php_class_upload.htm
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.533
+Requires:	php(core) >= %{php_min_version}
 Requires:	php(gd)
 Requires:	php(pcre)
-Requires:	php-common >= 4:%{php_min_version}
 Requires:	php-date
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
