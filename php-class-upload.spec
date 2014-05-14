@@ -1,10 +1,10 @@
-%include	/usr/lib/rpm/macros.php
 %define		php_min_version 5.2.0
 %define		pkgname	class-upload
+%include	/usr/lib/rpm/macros.php
 Summary:	PHP Class to manager file uploads
 Name:		php-class-upload
 Version:	0.29
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		Development/Languages/PHP
 Source0:	http://www.verot.net/download/class.upload.php/class.upload.tar.gz
@@ -13,9 +13,9 @@ URL:		http://www.verot.net/php_class_upload.htm
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.533
 Requires:	php(core) >= %{php_min_version}
+Requires:	php(date)
 Requires:	php(gd)
 Requires:	php(pcre)
-Requires:	php-date
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
