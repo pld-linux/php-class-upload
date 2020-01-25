@@ -1,6 +1,5 @@
 %define		php_min_version 5.2.0
 %define		pkgname	class-upload
-%include	/usr/lib/rpm/macros.php
 Summary:	PHP Class to manager file uploads
 Name:		php-class-upload
 Version:	0.29
