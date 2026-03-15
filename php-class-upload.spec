@@ -3,7 +3,7 @@
 Summary:	PHP Class to manager file uploads
 Name:		php-class-upload
 Version:	0.29
-Release:	4
+Release:	5
 License:	GPL v2
 Group:		Development/Languages/PHP
 Source0:	http://www.verot.net/download/class.upload.php/class.upload.tar.gz
